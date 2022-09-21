@@ -39,3 +39,12 @@ class TestDeCachipum(TestCase):
         resultado = juego.ganar(opcion_del_jugador_a, opcion_del_jugador_b)
         #ASSERT
         self.assertEqual(esperado, resultado)
+
+    def test_te_mata_cafe(self):
+        opcion_del_jugador_a = "te"
+        opcion_del_jugador_b = "cafe"
+        esperado = "te"
+        # ACT
+        resultado = juego.ganar(opcion_del_jugador_a, opcion_del_jugador_b)
+        #ASSERT
+        self.assertEqual(esperado, resultado)

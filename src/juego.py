@@ -6,3 +6,5 @@ def ganar(opcion_del_jugador_a, opcion_del_jugador_b):
         return "cafe"
     if (opcion_del_jugador_a == "mate"):
         return "mate"
+    if (opcion_del_jugador_a == "te"):
+        return "te"
